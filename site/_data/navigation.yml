@@ -1,16 +1,20 @@
-logo_image: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
+logo_image: '/images/logo.svg' # You can add your own logo, e.g. '/images/logo.png'.
 
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'Pages'
+    - title: Home
+      url: /
+    - title: About
+      url: /about/
+    - title: Projects
       submenu:
-      - url: '/about/'
-        title: 'About'
-      - url: '/elements/'
-        title: 'Elements'
+        - title: Art & Photography
+          url: /art/
+        - title: Writing Samples
+          url: /writing/
+    - title: UI/UX
+      submenu:
+        - title: Boxing Page
+          url: /uiux/boxing-page/
+        - title: Zelda Companion App
+          url: /uiux/zelda-companion-app/
