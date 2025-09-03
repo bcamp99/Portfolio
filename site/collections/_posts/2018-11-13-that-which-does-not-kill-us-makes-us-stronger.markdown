@@ -7,13 +7,16 @@ description: >-
   Anniversary Series.
 tags: []
 image: /uploads/screenshot-2025-09-03-114012.png
-content_blocks:
-  - _bookshop_name: content
-    content_html: >-
-      <p>Read the article below:</p>
-      <iframe src="/uploads/What Matters to Generation Next.pdf" 
-              width="100%" 
-              height="800px" 
-              style="border:1px solid #ccc;">
-      </iframe>
 ---
+
+<p>Read the article below:</p>
+
+<div style="width:100%; height:800px; margin:2rem 0;">
+  <iframe 
+    src="/uploads/What Matters to Generation Next.pdf" 
+    style="width:100%; height:100%; border:1px solid #ccc;" 
+    frameborder="0">
+    This browser does not support PDFs. Please download the PDF 
+    <a href="/uploads/What Matters to Generation Next.pdf">here</a>.
+  </iframe>
+</div>
