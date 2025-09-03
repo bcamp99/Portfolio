@@ -9,12 +9,12 @@ menu__settings:
     - title: Projects
       submenu:
         - title: Art & Photography
-          url: /art/
+          url: /art-photography/
         - title: Writing Samples
           url: /writing/
     - title: UI/UX
       submenu:
         - title: Boxing Page
-          url: /uiux/boxing-page/
+          url: /boxing-page/
         - title: Zelda Companion App
-          url: /uiux/zelda-companion-app/
+          url: /ZeldaCompanionApp/
