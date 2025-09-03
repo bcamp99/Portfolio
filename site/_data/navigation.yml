@@ -9,7 +9,7 @@ menu__settings:
       submenu:
         - title: Art & Photography
           url: /art-photography/
-        - title: Writing Samples
+        - title: Writing
           url: /writing/
     - title: UI/UX
       submenu:
