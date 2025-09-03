@@ -1,6 +1,6 @@
 ---
 _schema: default
-date: 2018-11-11 12:01:35
+date: 2022-12-12 12:01:00
 title: 'Rithy Panh: Memorializing History Through Documentary'
 description: >-
   A paper analyzing how Rithy Panh memorializes Cambodia's history through
