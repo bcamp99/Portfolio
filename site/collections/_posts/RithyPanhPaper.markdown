@@ -8,10 +8,13 @@ description: >-
 tags: []
 image: /uploads/rithy-panh.jpg
 ---
+
 <div style="width:100%; height:800px; margin:2rem 0;">
-        <iframe src="/site/uploads/Rithy Panh Memorializing History Through Documentary.pdf" style="width:100%; height:100%; border:1px solid #ccc;" frameborder="0">
-          This browser does not support PDFs. Please download the PDF
-          <a href="/site/uploads/Rithy Panh Memorializing History Through Documentary.pdf">here</a>.
-        </iframe>
-        <p></p>
-      </div>
+  <iframe 
+    src="/uploads/Rithy%20Panh%20Memorializing%20History%20Through%20Documentary.pdf" 
+    style="width:100%; height:100%; border:1px solid #ccc;" 
+    frameborder="0">
+    This browser does not support PDFs. Please download the PDF 
+    <a href="/uploads/Rithy%20Panh%20Memorializing%20History%20Through%20Documentary.pdf">here</a>.
+  </iframe>
+</div>
