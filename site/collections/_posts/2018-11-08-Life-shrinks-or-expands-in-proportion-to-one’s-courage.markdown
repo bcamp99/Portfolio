@@ -8,7 +8,6 @@ description: >-
 tags: []
 image: /uploads/rithy-panh.jpg
 ---
-
 <div style="width:100%; height:800px; margin:2rem 0;">
   <!-- PDF embed -->
   <object 
