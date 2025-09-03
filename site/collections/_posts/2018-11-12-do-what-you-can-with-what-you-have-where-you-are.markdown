@@ -12,9 +12,11 @@ content_blocks:
   - _bookshop_name: content
     content_html: >-
       <p>Read the paper below:</p>
-      <iframe src="/site/uploads/Psychology and Climate Change.pdf" 
-              width="100%" 
-              height="800px" 
-              style="border:1px solid #ccc;">
-      </iframe>
+      <div class="pdf-container" style="margin-bottom:2rem;">
+        <iframe src="/uploads/Psychology and Climate Change.pdf"
+                width="100%" 
+                height="800px" 
+                style="border:1px solid #ccc;">
+        </iframe>
+      </div>
 ---
