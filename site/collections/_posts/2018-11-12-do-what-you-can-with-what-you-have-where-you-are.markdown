@@ -8,15 +8,13 @@ description: >-
   environmental patterns.
 tags: []
 image: /uploads/sad.jpg
-content_blocks:
-  - _bookshop_name: content
-    content_html: >-
-      <p>Read the paper below:</p>
-      <div class="pdf-container" style="margin-bottom:2rem;">
-        <iframe src="/uploads/Psychology and Climate Change.pdf"
-                width="100%" 
-                height="800px" 
-                style="border:1px solid #ccc;">
-        </iframe>
-      </div>
 ---
+<div style="width:100%; height:800px; margin:2rem 0;">
+  <iframe 
+    src="/uploads/Psychology and Climate Change.pdf" 
+    style="width:100%; height:100%; border:1px solid #ccc;" 
+    frameborder="0">
+    This browser does not support PDFs. Please download the PDF 
+    <a href="/uploads/Psychology and Climate Change.pdf">here</a>.
+  </iframe>
+</div>
