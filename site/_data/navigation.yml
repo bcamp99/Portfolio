@@ -1,5 +1,4 @@
-logo_image: '/images/logo.svg' # You can add your own logo, e.g. '/images/logo.png'.
-
+logo_image: /uploads/portfolio-logo.png
 menu__settings:
   menu__items:
     - title: Home
