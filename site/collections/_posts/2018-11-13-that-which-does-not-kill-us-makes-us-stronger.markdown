@@ -9,8 +9,6 @@ tags: []
 image: /uploads/screenshot-2025-09-03-114012.png
 ---
 
-<p>Read the article below:</p>
-
 <div style="width:100%; height:800px; margin:2rem 0;">
   <iframe 
     src="/uploads/What Matters to Generation Next.pdf" 
