@@ -13,7 +13,7 @@ menu__settings:
           url: /writing/
     - title: UI/UX
       submenu:
-        - title: Boxing Page
-          url: /boxing-page/
+        - title: Concept Mockups
+          url: /concept-mockups/
         - title: Zelda Companion App
           url: /ZeldaCompanionApp/
