@@ -5,11 +5,11 @@ footer_menu__settings:
     - title: About
       url: /about
     - title: Art & Photography
-      url: /projects
+      url: /art-photography
     - title: Concept Mockups
       url: /concept-mockups
     - title: Writing
-      url: /blog
+      url: /writing
     - title: Zelda Companion App
       url: /zelda-companion-app
   copyright_text_html: >-
