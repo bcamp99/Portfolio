@@ -1,4 +1,3 @@
----
 _schema: default
 title: Home
 content_blocks:
@@ -13,17 +12,20 @@ content_blocks:
     cta_button_link: /about
     works_button: See my works
     works_button_link: '#projects'
+
   - _bookshop_name: projects-section
     title: Zelda Companion Concept App
     description_html: |-
-      <div style="display:flex; align-items:center; gap:2rem;">
-        <iframe width="560" height="315"
-                src="https://www.youtube.com/embed/_XJiSc_K2Oc?si=qyTAYgMZkef396PY"
-                title="Zelda Companion App Video Preview" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-        </iframe>
-        <div>
+      <div style="display:flex; flex-wrap:wrap; align-items:center; gap:2rem;">
+        <div style="flex:1 1 300px; min-width:300px;">
+          <iframe style="width:100%; height:315px;"
+                  src="https://www.youtube.com/embed/_XJiSc_K2Oc?si=qyTAYgMZkef396PY"
+                  title="Zelda Companion App Video Preview" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <div style="flex:1 1 300px; min-width:300px;">
           <p>A Figma mock-up of the first phase of the Zelda TOTK Companion App,
           highlighting streams, clips, and streamer pages designed for an engaging
           user experience.</p>
@@ -31,6 +33,7 @@ content_blocks:
       </div>
     link_url: /ZeldaCompanionApp
     show_projects: false
+
   - _bookshop_name: blog-section
     title: Writing
     description_html: >-
@@ -38,10 +41,25 @@ content_blocks:
       and reflections.</p>
     link_url: /writing
     show_posts: true
+
+  - _bookshop_name: projects-section
+    title: Art & Photography
+    description_html: |-
+      <div style="display:flex; flex-wrap:wrap; align-items:center; gap:2rem;">
+        <div style="flex:1 1 300px; min-width:300px;">
+          <img src="/uploads/art-preview.png" alt="Art & Photography Preview" style="width:100%; height:auto; display:block;">
+        </div>
+        <div style="flex:1 1 300px; min-width:300px;">
+          <p>A collection of hand-drawn pieces, paintings, and photography capturing
+          moments, moods, and stories through color, light, and texture.</p>
+        </div>
+      </div>
+    link_url: /projects
+    show_projects: false
+
   - _bookshop_name: contact-form
     form_title: Get in touch
     form_description: Questions, ideas, or opportunities? I’m just a message away.
     form_success_page: ''
     form_submission_email: bayley.e.camp@gmail.com
     form_button_text: Send now
----
