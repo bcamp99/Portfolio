@@ -2,14 +2,16 @@ footer_menu__settings:
   menu__items:
     - title: Home
       url: /
-    - title: Zelda Companion App
-      url: /ZeldaCompanionApp
-    - title: Art & Photography
-      url: /projects
     - title: About
       url: /about
+    - title: Art & Photography
+      url: /projects
+    - title: Concept Mockups
+      url: /site/collections/_pages/concept-mockups.html
     - title: Writing
       url: /blog
-copyright_text_html: >-
-  <p> 2025 &copy; <a href="/">Bayley Camp</a>. Template by <a
-  href="https://cloudcannon.com/">CloudCannon</a>.</p>
+    - title: Zelda Companion App
+      url: /ZeldaCompanionApp
+  copyright_text_html: >-
+    <p> 2025 &copy; <a href="/">Bayley Camp</a>. Template by <a
+    href="https://cloudcannon.com/">CloudCannon</a>.</p>
