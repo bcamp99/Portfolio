@@ -11,14 +11,14 @@ image: /uploads/drink-image.jpg
 <div style="width:100%; height:800px; margin:2rem 0;">
   <!-- PDF embed -->
   <object 
-    data="/site/uploads/Alcohol%20Effects%20on%20Depression%20by%20Gender.pdf" 
+    data="/uploads/Alcohol%20Effects%20on%20Depression%20by%20Gender.pdf" 
     type="application/pdf" 
     width="100%" 
     height="100%">
     
     <!-- Fallback if PDF cannot load -->
     <p>This browser does not support PDFs. You can download the PDF instead: 
-      <a href="/site/uploads/Alcohol%20Effects%20on%20Depression%20by%20Gender.pdf" target="_blank" rel="noopener noreferrer">Download PDF</a>.
+      <a href="/uploads/Alcohol%20Effects%20on%20Depression%20by%20Gender.pdf" target="_blank" rel="noopener noreferrer">Download PDF</a>.
     </p>
   </object>
 </div>
