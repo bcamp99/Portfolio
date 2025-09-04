@@ -8,10 +8,6 @@ description: >-
 tags: []
 image: /uploads/rithy-panh.jpg
 ---
-<div style="margin:2rem 0;">
-  <p>This paper explores how Rithy Panh brings Cambodia’s forgotten past back to life through his striking documentary films.</p>
-</div>
-
 <div style="width:100%; height:800px; margin:2rem 0;">
   <!-- PDF embed -->
   <object 
