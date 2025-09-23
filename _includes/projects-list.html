@@ -1,0 +1,14 @@
+<div class="projects-list">
+  {% if include.block.show_projects %}
+    <h2>Projects</h2>
+    <ul>
+      {% for project in site.projects %}
+        <li>
+          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No projects to display.</p>
+  {% endif %}
+</div>

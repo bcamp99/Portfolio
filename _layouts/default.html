@@ -16,8 +16,13 @@
   <!-- Render content blocks -->
   {% if page.content_blocks %}
     {% for block in page.content_blocks %}
-      {%- assign template_name = block._bookshop_name | default: block.template -%}
-      {% include {{ template_name }}.html block=block %}
+      {%- comment -%}
+        Each block references an include file matching its _bookshop_name:
+        e.g. page-heading => _includes/page-heading.html
+        Make sure the corresponding include exists.
+      {%- endcomment -%}
+      {% assign template_name = block._bookshop_name | replace: "_", "-" | append: ".html" %}
+      {% include {{ template_name }} block=block %}
     {% endfor %}
   {% endif %}
 
@@ -27,5 +32,6 @@
 
   <script src="/js/scripts.js"></script>
   <script src="/js/common.js"></script>
+
 </body>
 </html>

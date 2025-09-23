@@ -1,0 +1,27 @@
+<section class="blog-section">
+  <h2>{{ include.block.title }}</h2>
+  {% if include.block.description_html %}
+    <div class="blog-description">
+      {{ include.block.description_html }}
+    </div>
+  {% endif %}
+
+  {% if include.block.show_posts %}
+    <ul class="blog-posts-list">
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date_to_string }}
+          </time>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No posts to display.</p>
+  {% endif %}
+
+  {% if include.block.link_url %}
+    <a href="{{ include.block.link_url | relative_url }}" class="btn">View All</a>
+  {% endif %}
+</section>

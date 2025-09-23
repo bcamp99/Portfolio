@@ -1,0 +1,24 @@
+<section class="projects-section">
+  <h2>{{ include.block.title }}</h2>
+  {% if include.block.description_html %}
+    <div class="projects-description">
+      {{ include.block.description_html }}
+    </div>
+  {% endif %}
+
+  {% if include.block.show_projects %}
+    <ul class="projects-list">
+      {% for project in site.projects %}
+        <li>
+          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No projects to display.</p>
+  {% endif %}
+
+  {% if include.block.link_url %}
+    <a href="{{ include.block.link_url | relative_url }}" class="btn">View All</a>
+  {% endif %}
+</section>

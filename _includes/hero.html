@@ -1,0 +1,26 @@
+<section class="hero">
+  <div class="hero-content">
+    <h1>{{ include.block.title }}</h1>
+    <div class="hero-description">
+      {{ include.block.description_html }}
+    </div>
+
+    {% if include.block.cta_button %}
+      <a href="{{ include.block.cta_button_link | relative_url }}" class="btn">
+        {{ include.block.cta_button }}
+      </a>
+    {% endif %}
+
+    {% if include.block.works_button %}
+      <a href="{{ include.block.works_button_link | relative_url }}" class="btn-secondary">
+        {{ include.block.works_button }}
+      </a>
+    {% endif %}
+  </div>
+
+  {% if include.block.image %}
+    <div class="hero-image">
+      <img src="{{ include.block.image | relative_url }}" alt="{{ include.block.image_alt }}">
+    </div>
+  {% endif %}
+</section>

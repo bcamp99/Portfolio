@@ -1,0 +1,22 @@
+<div class="contact-form">
+  <h2>{{ include.block.form_title }}</h2>
+  {% if include.block.form_description %}
+    <p>{{ include.block.form_description }}</p>
+  {% endif %}
+
+  <form action="https://formspree.io/f/mnqeykqy" method="POST">
+    <label>
+      Your Name:
+      <input type="text" name="name" required>
+    </label>
+    <label>
+      Your Email:
+      <input type="email" name="email" required>
+    </label>
+    <label>
+      Message:
+      <textarea name="message" rows="5" required></textarea>
+    </label>
+    <button type="submit">{{ include.block.form_button_text | default: "Send" }}</button>
+  </form>
+</div>
