@@ -16,24 +16,48 @@
   <!-- Render content blocks -->
   {% if page.content_blocks %}
     {% for block in page.content_blocks %}
-      {% if block._bookshop_name %}
-        {% assign template_name = block._bookshop_name | replace: "_", "-" %}
-        {% comment %}
-          Ensure you have a corresponding include in _includes/
-          Example: _includes/page-heading.html, _includes/content.html, _includes/hero.html
-        {% endcomment %}
-        {% if template_name != "" %}
-          {% render template_name, block: block %}
-        {% endif %}
+      
+      {% if block.type == "page-heading" %}
+        {% include page-heading.html title=block.title description=block.description %}
+      {% elsif block.type == "content" %}
+        {% include content.html content_html=block.content_html %}
+      {% elsif block.type == "hero" %}
+        {% include hero.html 
+            title=block.title
+            description_html=block.description_html
+            image=block.image
+            image_alt=block.image_alt
+            cta_button=block.cta_button
+            cta_button_link=block.cta_button_link
+            works_button=block.works_button
+            works_button_link=block.works_button_link %}
+      {% elsif block.type == "projects" %}
+        {% include projects.html 
+            title=block.title
+            description_html=block.description_html
+            link_url=block.link_url
+            show_projects=block.show_projects %}
+      {% elsif block.type == "posts-list" %}
+        {% include posts-list.html show_posts=block.show_posts %}
+      {% elsif block.type == "page-image" %}
+        {% include page-image.html image=block.image image_alt=block.image_alt %}
+      {% elsif block.type == "contact-form" %}
+        {% include contact-form.html 
+            form_title=block.form_title
+            form_description=block.form_description
+            form_success_page=block.form_success_page
+            form_submission_email=block.form_submission_email
+            form_button_text=block.form_button_text %}
+      {% elsif block.type == "button" %}
+        {% include button.html 
+            label=block.label
+            type=block.type
+            link_url=block.link_url
+            open_in_new_tab=block.open_in_new_tab
+            width=block.width %}
       {% endif %}
+      
     {% endfor %}
   {% endif %}
 
-  <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
-
-  {% include footer.html %}
-
-  <script src="/js/scripts.js"></script>
-  <script src="/js/common.js"></script>
-</body>
-</html>
+  <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i><
