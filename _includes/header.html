@@ -6,7 +6,7 @@
 
         <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
-          {%if site.data.navigation.logo_image %}
+          {% if site.data.navigation.logo_image %}
             <img class="logo__image" src="{{ site.baseurl }}{{ site.data.navigation.logo_image }}" alt="{{ site.data.general_settings.title }}">
           {% else %}
             {{ site.data.settings.title }}
@@ -31,7 +31,7 @@
                   <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
                   <div class="dropdown-menu">
                     {% for submenu-item in item.submenu %}
-                      <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
+                      <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{ submenu-item.title }}</a>
                     {% endfor %}
                   </div>
                 </li>
@@ -46,7 +46,8 @@
             </ul>
           </div>
 
-          {% bookshop_include social-link %}
+          {% include social-link.html %}
+
         </nav>
 
         <div class="nav-button">

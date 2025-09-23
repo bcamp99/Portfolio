@@ -13,11 +13,19 @@
 
     {{ content }}
 
-    <!--
-        Bookshop components are accessed using the bookshop tag,
-        using the same syntax as the standard Jekyll include tag.
-    -->
-    {% bookshop_include page content_blocks=page.content_blocks page_theme=page.page_theme %}
+    <!-- Render content blocks without Bookshop -->
+    {% if page.content_blocks %}
+      {% for block in page.content_blocks %}
+        {%- comment -%}
+          Previously we used `{% bookshop ... %}` tags. Now each block should
+          reference a regular include that corresponds to its `_bookshop_name` or
+          template file. Ensure you have includes like `_includes/page-heading.html`,
+          `_includes/content.html`, `_includes/projects-list.html`, etc.
+        {%- endcomment -%}
+        {% assign template_name = block._bookshop_name | default: block.template %}
+        {% include {{ template_name }} bind=block %}
+      {% endfor %}
+    {% endif %}
 
     <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
 
