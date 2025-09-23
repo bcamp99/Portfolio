@@ -13,17 +13,11 @@
 
     {{ content }}
 
-    <!-- Render content blocks without Bookshop -->
+    <!-- Render content blocks -->
     {% if page.content_blocks %}
       {% for block in page.content_blocks %}
-        {%- comment -%}
-          Previously we used `{% bookshop ... %}` tags. Now each block should
-          reference a regular include that corresponds to its `_bookshop_name` or
-          template file. Ensure you have includes like `_includes/page-heading.html`,
-          `_includes/content.html`, `_includes/projects-list.html`, etc.
-        {%- endcomment -%}
-        {% assign template_name = block._bookshop_name | default: block.template %}
-        {% include {{ template_name }} bind=block %}
+        {% assign template_name = block._bookshop_name | append: ".html" %}
+        {% render template_name, block: block %}
       {% endfor %}
     {% endif %}
 

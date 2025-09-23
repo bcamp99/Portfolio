@@ -4,7 +4,14 @@
     <div class="row">
       <div class="col col-12">
 
-        {% include social-link.html %}
+        <div class="social-links">
+          {% for item in site.data.social %}
+            <a href="{{ item.link }}" target="_blank" class="social-link">
+              <i class="icon-{{ item.icon | downcase }}"></i>
+              <span class="sr-only">{{ item.icon }}</span>
+            </a>
+          {% endfor %}
+        </div>
 
         <ul class="footer_nav list-reset">
           {% for item in site.data.footer.footer_menu__settings.menu__items %}
