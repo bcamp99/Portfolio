@@ -6,19 +6,24 @@ layout: default
 
   {% include page-heading.html title=page.title description=page.subtitle %}
 
-  {% assign page_image = site.baseurl | append: page.image %}
-  {% include page-image.html image=page_image %}
+  {% if page.image %}
+    {% assign page_image = site.baseurl | append: page.image %}
+    {% include page-image.html image=page_image %}
+  {% endif %}
 
   <div class="page animate">
     {{ content }}
   </div>
 
-  {% if page.previous.url %}
+  {% if page.previous and page.previous.url %}
   <div class="project__navigation animate">
     <a class="project__prev" href="{{ page.previous.url }}">
       <div class="project__box">
         <span class="project__nav__info">Next Project</span>
-        <h2 class="project__nav__title">{{ page.previous.title }}<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
+        <h2 class="project__nav__title">
+          {{ page.previous.title }}
+          <i class="ion ion-md-arrow-round-forward arrow-right"></i>
+        </h2>
       </div>
     </a>
   </div>

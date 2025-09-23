@@ -1,4 +1,7 @@
+# _data/navigation.yml
+
 logo_image: /uploads/website-logo-resized.png
+
 menu__settings:
   menu__items:
     - title: Home

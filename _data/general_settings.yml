@@ -1,5 +1,14 @@
-title:
-description:
-social_media_share_image:
-disqus-identifier:
-google-analytics:
+# _data/general_settings.yml
+
+# Basic site info
+title: "Bayley Camp Portfolio"
+description: "Portfolio of Bayley Camp — design, art, and writing."
+
+# Optional social preview image for Open Graph / Twitter cards
+social_media_share_image: "/uploads/social-preview.jpg"
+
+# Disqus settings (optional)
+disqus-identifier: ""  # leave empty if not using Disqus
+
+# Google Analytics (optional)
+google-analytics: ""    # insert tracking ID like "UA-12345678-9" if needed

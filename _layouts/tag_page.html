@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% assign tag = page.tag | capitalize %}
-{% include page-heading.html title=tag %}
+{% assign tag_name = page.tag | capitalize %}
+{% include page-heading.html title=tag_name %}
 
 <div class="container">
   <div class="row">
@@ -24,10 +24,10 @@ layout: default
 
               <div class="article__content">
 
-                {% if post.tags.size >= 1 %}
+                {% if post.tags and post.tags.size > 0 %}
                 <div class="article-tags__box">
-                  {% for tag in post.tags %}
-                  <a href="{{ site.baseurl }}/tag/{{ tag | downcase }}" class="article__tag">{{ tag }}</a>
+                  {% for tag_item in post.tags %}
+                  <a href="{{ site.baseurl }}/tag/{{ tag_item | downcase }}" class="article__tag">{{ tag_item }}</a>
                   {% endfor %}
                 </div>
                 {% endif %}
