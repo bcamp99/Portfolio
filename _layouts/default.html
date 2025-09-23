@@ -5,33 +5,33 @@
 
 <body>
 
-  {% if site.data.general_settings.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
+    {% if site.data.general_settings.google-analytics %}
+        {% include google-analytics.html %}
+    {% endif %}
 
-  {% include header.html %}
+    {% include header.html %}
 
-  {{ content }}
+    {{ content }}
 
-  <!-- Render content blocks -->
-  {% if page.content_blocks %}
-    {% for block in page.content_blocks %}
-      {%- comment -%}
-        Each block references an include file matching its _bookshop_name:
-        e.g. page-heading => _includes/page-heading.html
-        Make sure the corresponding include exists.
-      {%- endcomment -%}
-      {% assign template_name = block._bookshop_name | replace: "_", "-" | append: ".html" %}
-      {% include {{ template_name }} block=block %}
-    {% endfor %}
-  {% endif %}
+    <!-- Render content blocks -->
+    {% if page.content_blocks %}
+      {% for block in page.content_blocks %}
+        {% if block._bookshop_name %}
+          {% assign template_name = block._bookshop_name | replace: "_", "-" | append: ".html" %}
+          {% comment %}
+            Ensure you have corresponding includes in _includes/
+            Example: _includes/page-heading.html, _includes/content.html
+          {% endcomment %}
+          {% include {{ template_name }} block=block %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
-  <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+    <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
 
-  {% include footer.html %}
+    {% include footer.html %}
 
-  <script src="/js/scripts.js"></script>
-  <script src="/js/common.js"></script>
-
+    <script src="/js/scripts.js"></script>
+    <script src="/js/common.js"></script>
 </body>
 </html>
