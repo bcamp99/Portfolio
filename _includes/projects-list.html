@@ -1,14 +1,9 @@
-<div class="projects-list">
-  {% if include.block.show_projects %}
-    <h2>Projects</h2>
-    <ul>
+<div class="projects-list container">
+  <div class="row">
+    {% if include.show_projects %}
       {% for project in site.projects %}
-        <li>
-          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-        </li>
+        {% include project-card.html project=project %}
       {% endfor %}
-    </ul>
-  {% else %}
-    <p>No projects to display.</p>
-  {% endif %}
+    {% endif %}
+  </div>
 </div>

@@ -1,6 +1,13 @@
-<div class="page-heading">
-  <h1>{{ include.block.title }}</h1>
-  {% if include.block.description %}
-    <p>{{ include.block.description }}</p>
-  {% endif %}
-</div>
+<section class="page-heading">
+  <div class="container page-heading__inner">
+
+    {% if include.title %}
+      <h1 class="page-heading__title">{{ include.title }}</h1>
+    {% endif %}
+
+    {% if include.description %}
+      <p class="page-heading__description">{{ include.description }}</p>
+    {% endif %}
+
+  </div>
+</section>

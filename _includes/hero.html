@@ -1,26 +1,32 @@
 <section class="hero">
-  <div class="hero-content">
-    <h1>{{ include.block.title }}</h1>
-    <div class="hero-description">
-      {{ include.block.description_html }}
+  <div class="container hero__inner">
+
+    <div class="hero__text">
+      {% if include.title %}
+        <h1 class="hero__title">{{ include.title }}</h1>
+      {% endif %}
+
+      {% if include.description_html %}
+        <div class="hero__description">
+          {{ include.description_html | markdownify }}
+        </div>
+      {% endif %}
+
+      <div class="hero__buttons">
+        {% if include.cta_button and include.cta_button_link %}
+          <a href="{{ include.cta_button_link }}" class="btn btn-primary">{{ include.cta_button }}</a>
+        {% endif %}
+        {% if include.works_button and include.works_button_link %}
+          <a href="{{ include.works_button_link }}" class="btn btn-secondary">{{ include.works_button }}</a>
+        {% endif %}
+      </div>
     </div>
 
-    {% if include.block.cta_button %}
-      <a href="{{ include.block.cta_button_link | relative_url }}" class="btn">
-        {{ include.block.cta_button }}
-      </a>
+    {% if include.image %}
+      <div class="hero__image">
+        <img src="{{ include.image }}" alt="{{ include.image_alt | default: '' }}">
+      </div>
     {% endif %}
 
-    {% if include.block.works_button %}
-      <a href="{{ include.block.works_button_link | relative_url }}" class="btn-secondary">
-        {{ include.block.works_button }}
-      </a>
-    {% endif %}
   </div>
-
-  {% if include.block.image %}
-    <div class="hero-image">
-      <img src="{{ include.block.image | relative_url }}" alt="{{ include.block.image_alt }}">
-    </div>
-  {% endif %}
 </section>

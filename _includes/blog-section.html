@@ -1,27 +1,26 @@
-<section class="blog-section">
-  <h2>{{ include.block.title }}</h2>
-  {% if include.block.description_html %}
-    <div class="blog-description">
-      {{ include.block.description_html }}
+<div class="blog-section">
+  {% if include.title %}
+    <h2 class="blog-section__title">{{ include.title }}</h2>
+  {% endif %}
+
+  {% if include.description_html %}
+    <div class="blog-section__description">
+      {{ include.description_html | markdownify }}
     </div>
   {% endif %}
 
-  {% if include.block.show_posts %}
-    <ul class="blog-posts-list">
-      {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <time datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date_to_string }}
-          </time>
-        </li>
+  {% if include.show_posts %}
+    <div class="blog-section__posts">
+      {% assign posts_to_show = site.posts %}
+      {% for post in posts_to_show %}
+        {% include blog-card.html post=post %}
       {% endfor %}
-    </ul>
-  {% else %}
-    <p>No posts to display.</p>
+    </div>
   {% endif %}
 
-  {% if include.block.link_url %}
-    <a href="{{ include.block.link_url | relative_url }}" class="btn">View All</a>
+  {% if include.link_url %}
+    <div class="blog-section__link">
+      <a href="{{ include.link_url }}" class="button">See All Posts</a>
+    </div>
   {% endif %}
-</section>
+</div>

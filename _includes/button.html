@@ -1,0 +1,11 @@
+{% assign btn_type = include.type | default: "Primary" %}
+{% assign btn_width = include.width | default: "Small" %}
+{% assign target = include.open_in_new_tab | default: false %}
+
+<a 
+  href="{{ include.link_url }}" 
+  class="btn btn-{{ btn_type | downcase }} btn-{{ btn_width | downcase }}"
+  {% if target %} target="_blank" rel="noopener"{% endif %}
+>
+  {{ include.label }}
+</a>

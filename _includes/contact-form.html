@@ -1,22 +1,31 @@
 <div class="contact-form">
-  <h2>{{ include.block.form_title }}</h2>
-  {% if include.block.form_description %}
-    <p>{{ include.block.form_description }}</p>
+  {% if include.form_title %}
+    <h2 class="contact-form__title">{{ include.form_title }}</h2>
   {% endif %}
 
-  <form action="https://formspree.io/f/mnqeykqy" method="POST">
-    <label>
-      Your Name:
-      <input type="text" name="name" required>
-    </label>
-    <label>
-      Your Email:
-      <input type="email" name="email" required>
-    </label>
-    <label>
-      Message:
-      <textarea name="message" rows="5" required></textarea>
-    </label>
-    <button type="submit">{{ include.block.form_button_text | default: "Send" }}</button>
+  {% if include.form_description %}
+    <p class="contact-form__description">{{ include.form_description }}</p>
+  {% endif %}
+
+  <form class="form" action="https://formspree.io/f/{{ include.form_submission_email | default: 'your-email@example.com' }}" method="POST">
+    <div class="form__group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form__group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" required>
+    </div>
+
+    <div class="form__group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <input type="hidden" name="_next" value="{{ include.form_success_page | default: '/' }}">
+    <button type="submit" class="btn btn-primary">
+      {{ include.form_button_text | default: 'Send' }}
+    </button>
   </form>
 </div>

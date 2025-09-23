@@ -1,0 +1,22 @@
+<div class="project-card col col-4 col-d-6 col-t-12">
+  <div class="project-card__inner">
+
+    {% if include.project.image %}
+    <div class="project-card__image-wrap">
+      <a class="project-card__image-link" href="{{ include.project.url }}">
+        <img loading="lazy" src="{{ include.project.image }}" alt="{{ include.project.title }}">
+      </a>
+    </div>
+    {% endif %}
+
+    <div class="project-card__content">
+      {% if include.project.subtitle %}
+      <p class="project-card__subtitle">{{ include.project.subtitle }}</p>
+      {% endif %}
+      <h2 class="project-card__title">
+        <a href="{{ include.project.url }}">{{ include.project.title }}</a>
+      </h2>
+    </div>
+
+  </div>
+</div>

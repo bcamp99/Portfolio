@@ -1,0 +1,43 @@
+<div class="article">
+  {% if include.post.image %}
+  <div class="article__image-wrap">
+    <a href="{{ include.post.url }}">
+      <img loading="lazy" src="{{ include.post.image }}" alt="{{ include.post.title }}">
+    </a>
+  </div>
+  {% endif %}
+
+  <div class="article__content">
+    {% if include.post.tags %}
+    <div class="article-tags__box">
+      {% for tag in include.post.tags %}
+      <a href="{{ site.baseurl }}/tag/{{ tag | downcase }}" class="article__tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <h2 class="article__title">
+      <a href="{{ include.post.url }}">{{ include.post.title }}</a>
+    </h2>
+
+    <p class="article__excerpt">
+      {% if include.post.description %}
+        {{ include.post.description }}
+      {% else %}
+        {{ include.post.content | strip_html | truncate: 120 }}
+      {% endif %}
+    </p>
+
+    <div class="article__meta">
+      <div class="article__author-image">
+        <img loading="lazy" src="{{ site.data.author.author_image }}" alt="{{ site.data.author.author_name }}">
+      </div>
+      <div class="article-info">
+        <div class="article__author-name">{{ site.data.author.author_name }}</div>
+        <span class="article__date">
+          <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date_to_string }}</time>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

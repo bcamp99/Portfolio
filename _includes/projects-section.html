@@ -1,24 +1,25 @@
-<section class="projects-section">
-  <h2>{{ include.block.title }}</h2>
-  {% if include.block.description_html %}
-    <div class="projects-description">
-      {{ include.block.description_html }}
+<div class="projects-section container">
+  {% if include.title %}
+    <h2 class="section-title">{{ include.title }}</h2>
+  {% endif %}
+  
+  {% if include.description_html %}
+    <div class="section-description">
+      {{ include.description_html | markdownify }}
     </div>
   {% endif %}
 
-  {% if include.block.show_projects %}
-    <ul class="projects-list">
+  {% if include.show_projects %}
+    <div class="projects-list row">
       {% for project in site.projects %}
-        <li>
-          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-        </li>
+        {% include project-card.html project=project %}
       {% endfor %}
-    </ul>
-  {% else %}
-    <p>No projects to display.</p>
+    </div>
   {% endif %}
 
-  {% if include.block.link_url %}
-    <a href="{{ include.block.link_url | relative_url }}" class="btn">View All</a>
+  {% if include.link_url %}
+    <div class="projects-link">
+      <a href="{{ include.link_url }}" class="btn btn-primary">See all projects</a>
+    </div>
   {% endif %}
-</section>
+</div>

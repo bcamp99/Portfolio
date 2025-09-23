@@ -1,5 +1,10 @@
-{% if block.image %}
-<div class="page-image">
-  <img src="{{ block.image }}" alt="{{ block.image_alt | default: '' }}">
-</div>
+{% if include.image %}
+  <div class="page-image">
+    <img 
+      src="{{ include.image }}" 
+      alt="{{ include.image_alt | default: '' }}" 
+      class="page-image__img"
+      loading="lazy"
+    />
+  </div>
 {% endif %}
