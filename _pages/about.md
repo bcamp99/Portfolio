@@ -2,22 +2,36 @@
 layout: page
 title: About <em>Me</em>
 permalink: /about/
-image: '/images/100.jpg'
+image: <img src="/images/Headshot.jpg" alt="Bayley Camp Headshot">
 ---
-Hello there! Welcome to my corner of the digital world. My name is Kevin, and I am a passionate Product Designer with a flair for crafting exceptional user experiences. I believe that design is not just about aesthetics but a powerful tool to make a positive impact on people’s lives. Beyond just aesthetics, I am deeply committed to designing for impact. Whether it’s improving daily routines, enhancing productivity, or fostering connections.
+My journey from operational leadership to design began with a simple realization: the best systems aren't just efficient—they're irresistible to the people who use them.
 
-> Design is not just what it looks like and feels like. Design is how it works.
-> <cite>Steve Jobs</cite>
+With a background in psychology (BA, USC) and years of experience leading operations in government contracting, I've seen how design can make or break engagement. My psychology training taught me how people think and decide; my operations work showed me how those insights hold up under pressure. Together, they fuel my belief that great design isn't just about aesthetics—it’s about creating experiences people genuinely want to return to.
 
-Curiosity drives me to explore the uncharted territories of design. I love pushing the boundaries and venturing into new design paradigms. As a perpetual learner, I stay updated with the latest industry trends, emerging technologies, and design methodologies, incorporating them into my work to deliver innovative and cutting-edge solutions.
+> No matter what anybody tells you, words and ideas can change the world
+> <cite>Dead Poets Society</cite>
 
-I am a firm believer in giving back to the design community that has nurtured and supported me. I volunteer my time to mentor aspiring designers, participate in design forums, and contribute to open-source projects. Sharing knowledge and collaborating with fellow designers brings a sense of fulfillment and camaraderie.
+My Design Philosophy
 
-![Friends](/images/102.jpg)
-*Photo by [Jessica Felicio](https://unsplash.com/@jekafe) on [Unsplash](https://unsplash.com/photos/grayscale-photo-of-woman-standing-between-two-men-CT6G8Mz4grs)*
+I believe great design anticipates needs before users even realize them. It feels effortless, grounded, and magnetic — the kind of experience that keeps people coming back because it just makes sense.
 
-Design has been an incredible journey of growth and self-discovery for me. I am deeply grateful for every opportunity that has come my way, every challenge that has shaped my skills, and every success that has inspired me to aim higher. With humility and enthusiasm, I look forward to the next chapter in my design adventure.
 
-As a Product Designer, I see design challenges as exciting opportunities to find elegant solutions. I enjoy breaking down complex problems into manageable components, collaborating with cross-functional teams, and iterating through multiple design cycles to arrive at the most effective and user-friendly outcomes.
+What I Bring
+
+- Psychology-informed insights into user motivation  
+- Operational expertise in building systems that work under pressure  
+- Strategic thinking that aligns design with organizational goals  
+- A drive to craft experiences users love, not just use
+
+My work blends design, psychology, and strategy to build experiences that feel good to use — not just good to look at. It’s about making things people actually want to come back to.
+
+<iframe 
+    src="https://github.com/bcamp99/Portfolio/raw/main/docs/Bayley_E_Camp_2025_Tech_Resume.pdf" 
+    width="100%" 
+    height="800px" 
+    style="border:1px solid #ccc;">
+</iframe>
+
+<p>If the PDF doesn’t display, <a href="https://github.com/bcamp99/Portfolio/raw/main/docs/Bayley_E_Camp_2025_Tech_Resume.pdf" target="_blank">download it here</a>.</p>
 
 ***
