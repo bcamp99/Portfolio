@@ -2,10 +2,7 @@
 layout: page
 title: About <em>Me</em>
 permalink: /about/
-<img 
-  src="images/Headshot.jpg" 
-  alt="Bayley Camp Headshot" 
-  style="width:180px; border-radius:50%;">
+image: images/Headshot.jpg
 
 ---
 My journey from operational leadership to design began with a simple realization: the best systems aren't just efficient—they're irresistible to the people who use them.
