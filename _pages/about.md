@@ -12,12 +12,12 @@ With a background in psychology (BA, USC) and years of experience leading operat
 > No matter what anybody tells you, words and ideas can change the world
 > <cite>Dead Poets Society</cite>
 
-My Design Philosophy
+**My Design Philosophy**
 
 I believe great design anticipates needs before users even realize them. It feels effortless, grounded, and magnetic — the kind of experience that keeps people coming back because it just makes sense.
 
 
-What I Bring
+**What I Bring**
 
 - Psychology-informed insights into user motivation  
 - Operational expertise in building systems that work under pressure  
