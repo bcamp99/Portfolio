@@ -25,6 +25,6 @@ What I Bring
 
 My work blends design, psychology, and strategy to build experiences that feel good to use — not just good to look at. It’s about making things people actually want to come back to.
 
-<object data="docs/Bayley_E_Camp_2025_Tech_Resume.pdf" width="900" height="1100" type='application/pdf'></object>
+<object data="../docs/Bayley_E_Camp_2025_Tech_Resume.pdf" width="900" height="1100" type='application/pdf'></object>
 
 ***
