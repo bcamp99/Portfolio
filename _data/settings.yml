@@ -33,17 +33,18 @@ cta_button:
 #-------------------------------
 # Author Settings
 author:
-  author_intro: Hey, I’m Kevin Jones
-  author_name: Kevin Jones
-  author_role: Product Designer
+  author_intro: Hey, I’m Bayley Camp
+  author_name: Bayley Camp
+  author_role: a Designer and Multidisciplinary Creative
   author_avatar: /images/01.jpg
 
 
 #-------------------------------
 # Sidebar Section Settings
 sidebar:
-  sidebar_title: One Stop Daily <em>News,</em> <em>Article,</em> <em>Inspiration</em>. # You can add an 'em' element to highlight text.
-  sidebar_description: Welcome to a unique world of creativity and innovation! Here you'll find engaging articles, helpful tips, and captivating stories from the realms of design.
+  sidebar_title: A collection of moments and ideas 
+  from interfaces to imagery, sketches to stories. # You can add an 'em' element to highlight text.
+  sidebar_description: This is where I share what inspires me and how I bring creativity to life across mediums.
 
 
 # Social Links
