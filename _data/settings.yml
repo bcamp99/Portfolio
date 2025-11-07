@@ -34,17 +34,19 @@ cta_button:
 # Author Settings
 author:
   author_intro: Hey, I’m Bayley Camp
-  author_name: Bayley Camp
-  author_role: a Designer and Multidisciplinary Creative
-  author_avatar: /images/01.jpg
+    author_name: Bayley Camp
+      author_role: a Designer and Multidisciplinary Creative
+        author_avatar: /images/01.jpg
 
 
-#-------------------------------
-# Sidebar Section Settings
-sidebar:
-  sidebar_title: A collection of moments and ideas 
-  from interfaces to imagery, sketches to stories. # You can add an 'em' element to highlight text.
+        #-------------------------------
+        # Sidebar Section Settings
+       sidebar:
+        sidebar_title: >
+        A collection of moments and ideas 
+        from interfaces to imagery, sketches to stories. # You can add an 'em' element to highlight text.
   sidebar_description: This is where I share what inspires me and how I bring creativity to life across mediums.
+
 
 
 # Social Links
@@ -151,7 +153,7 @@ mailchimp:
   enable: true
   mailchimp_title: Subscribe to Our <em>Newsletter</em> # You can add an 'em' element to highlight text.
   mailchimp_description: Join now and never miss out on our stuff again. Because you are worth it!
-  mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  mailchimp_identifier: "gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp;"
   mailchimp_input_text: Your email address
   mailchimp_button_text: Subscribe
 
