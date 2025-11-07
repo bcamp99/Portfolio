@@ -34,19 +34,18 @@ cta_button:
 # Author Settings
 author:
   author_intro: Hey, I’m Bayley Camp
-    author_name: Bayley Camp
-      author_role: a Designer and Multidisciplinary Creative
-        author_avatar: /images/01.jpg
+  author_name: Bayley Camp
+  author_role: a Designer and Multidisciplinary Creative
+  author_avatar: /images/01.jpg
 
 
-        #-------------------------------
-        # Sidebar Section Settings
-       sidebar:
-        sidebar_title: >
-        A collection of moments and ideas 
-        from interfaces to imagery, sketches to stories. # You can add an 'em' element to highlight text.
+#-------------------------------
+# Sidebar Section Settings
+sidebar:
+  sidebar_title: >
+    A collection of moments and ideas
+    from interfaces to imagery, sketches to stories.
   sidebar_description: This is where I share what inspires me and how I bring creativity to life across mediums.
-
 
 
 # Social Links
