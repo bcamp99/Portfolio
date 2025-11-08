@@ -8,8 +8,9 @@ image: 'images/Next Generation.webp'
 tags: [Generation Z, Innovation, Diversity, Future Workforce]
 ---
 
-There are now four generations working concurrently at ICT: Baby Boomers, Gen X, Millennials, and Gen Z. Bayley Camp (Gen Z) joined ICT in 2023, initially as an HR Intern Coordinator, assisting on our summer intern program. After graduating from USC with a BA in Social Sciences, concentrating in psychology, Bayley joined us full-time as an Administrative Assistant. Here she gives her Gen Z perspective on what matters to the next generation and how she sees that play out at ICT.  
-**NB:** Since writing this essay, Bayley Camp has been promoted to Operations Officer, Defense and Intelligence Initiatives.
+*There are now four generations working concurrently at ICT: Baby Boomers, Gen X, Millennials, and Gen Z.  
+Bayley Camp (Gen Z) joined ICT in 2023, initially as an HR Intern Coordinator, assisting on our summer intern program. After graduating from USC with a BA in Social Sciences, concentrating in psychology, Bayley joined us full-time as an Administrative Assistant. Here she gives her Gen Z perspective on what matters to the next generation and how she sees that play out at ICT.  
+**NB:** Since writing this essay, Bayley Camp has been promoted to Operations Officer, Defense and Intelligence Initiatives.*
 
 I’m 24, which makes me a Gen Z-er, one of the (very) few currently on staff at ICT. My generation has never known a world without always-on connectivity, mobile telephones (I was 7 when the iPhone launched), peer-to-peer platforms (i.e., Uber), managed by cloud-based, reputation-based safety systems (enabling ratings and tracking), and yes, the perils of social media (which is why most of us have set our accounts to private).
 
