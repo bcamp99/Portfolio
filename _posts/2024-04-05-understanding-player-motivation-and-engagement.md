@@ -64,3 +64,7 @@ Training with AI also raises new questions: how should AI communicate its limits
 These initiatives align with Secretary Hegseth’s priorities: reviving warrior ethos through hands-on training, preparing forces for near-peer and asymmetric threats, and sharpening judgment under pressure. ICT’s work with AR, VR, and AI isn’t just about building tools—it’s about shaping warfighters who can think fast and lead effectively.
 
 In the same way games and films once shaped perceptions of war, ICT now shapes how the military trains for it—turning innovation into readiness and aligning directly with the Department’s vision for a modern, adaptable force.
+
+---
+
+*Originally posted at:* [https://ict.usc.edu/news/essays/gaming-the-battlefield-bridging-mainstream-play-and-real-world-military-preparedness/](https://ict.usc.edu/news/essays/gaming-the-battlefield-bridging-mainstream-play-and-real-world-military-preparedness/)
