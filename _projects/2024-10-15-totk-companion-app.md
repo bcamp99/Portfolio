@@ -1,63 +1,97 @@
 ---
-layout: project
 title: Tears of the Kingdom Companion App (Mock-Up)
-date: 2024-10-15 09:00:00 +0300
+date: 2024-10-15 10:00:00 +0300
 subtitle: UX/UI Design in Figma
-description: A concept app inspired by The Legend of Zelda: Tears of the Kingdom — designed to enhance the streaming and community experience through intuitive UX and storytelling visuals.
+description: A concept app designed to complement gameplay through streaming and community connection.
 ---
 
 <p>
-This mock-up design was created in Figma as the first phase of a <em>Zelda: Tears of the Kingdom Companion App</em>. It focuses on the streaming experience — where fans could discover live streams, clips, and streamer profiles — all built around clarity, exploration, and immersion.
+This mock-up was built in Figma as the first phase of a <em>Zelda: Tears of the Kingdom Companion App</em>.  
+It focuses on the streaming experience — showcasing live streams, clips, and streamer pages — all arranged for clarity, flow, and immersion.
 </p>
 
 <p>
-The process began with wireframes, mapping the flow of pages and interactions to ensure usability came first. Once that structure was set, I layered in design: textures, type, and detail that drew from Zelda’s sense of adventure and magic. Every username, thumbnail, and caption was custom-made or generated through plugins to mirror a real-world UI.
+Every element was designed from the ground up, beginning with low-fidelity wireframes to define navigation and structure.  
+Once the flow was solid, I moved into detailed interface work: building profiles, adding thumbnails, and refining the look with textures and colors inspired by <em>Tears of the Kingdom’s</em> world.
 </p>
 
-<div class="gallery-box">
-  <div class="gallery gallery-columns-2">
-    <img src="{{ 'images/TOTK_Mood_Board.png' | relative_url }}" loading="lazy" alt="Mood Board">
-    <img src="{{ 'images/TOTK_All_Wire_Frames.png' | relative_url }}" loading="lazy" alt="Wireframes">
-  </div>
-  <em>Early Moodboard & Wireframes — grounding design decisions in tone, clarity, and flow.</em>
+<hr>
+
+<h2>🎨 Mood & Inspiration</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem;">
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_Mood_Board.png" loading="lazy" alt="TOTK Mood Board" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Mood Board</strong><br>Visual tone and color direction — balancing natural textures with digital polish.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_All_Wire_Frames.png" loading="lazy" alt="All Wireframes" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Wireframes</strong><br>Mapping the early structure of pages and user flow before refining design layers.</figcaption>
+  </figure>
 </div>
 
-## App Flow and Interface
+<hr>
 
-<p>
-Once the structure was refined, I built out full mock-ups of the main app views. The goal was to balance familiarity (what users expect from modern streaming apps) with the fantasy world’s unique design energy — soft gradients, gold tones, and subtle motion-inspired elements.
-</p>
+<h2>🧭 App Flow & Interface Design</h2>
 
-<div class="gallery-box">
-  <div class="gallery gallery-columns-2">
-    <img src="{{ 'images/TOTK_Home_Page.png' | relative_url }}" loading="lazy" alt="Home Page">
-    <img src="{{ 'images/TOTK_Streams_Page.png' | relative_url }}" loading="lazy" alt="Streams Page">
-    <img src="{{ 'images/TOTK_Streams_Profile_Page.png' | relative_url }}" loading="lazy" alt="Profile Page">
-    <img src="{{ 'images/TOTK_Stream_Video.png' | relative_url }}" loading="lazy" alt="Stream Video">
-    <img src="{{ 'images/TOTK_Stream_Video_2.png' | relative_url }}" loading="lazy" alt="Stream Video 2">
-    <img src="{{ 'images/TOTK_Stream_Video_3.png' | relative_url }}" loading="lazy" alt="Stream Video 3">
-    <img src="{{ 'images/TOTK_Stream_Short.png' | relative_url }}" loading="lazy" alt="Stream Short">
-  </div>
-  <em>Interface Screens — streaming, browsing, and profile exploration in a cohesive design system.</em>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_Home_Page.png" loading="lazy" alt="Home Page" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Home Page</strong><br>The main feed — blending adventure-inspired visuals with intuitive navigation.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_Streams_Page.png" loading="lazy" alt="Streams Page" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Streams Page</strong><br>All live and trending streams displayed in an adaptive, responsive layout.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_Streams_Profile_Page.png" loading="lazy" alt="Streamer Profile Page" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Streamer Profile</strong><br>Focused design for streamer identity, featuring community and clip highlights.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_Stream_Video.png" loading="lazy" alt="Stream Video 1" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Stream View</strong><br>A detailed look at live streaming interfaces and user interaction design.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_Stream_Video_2.png" loading="lazy" alt="Stream Video 2" style="width:100%; border-radius:8px;">
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_Stream_Video_3.png" loading="lazy" alt="Stream Video 3" style="width:100%; border-radius:8px;">
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_Stream_Short.png" loading="lazy" alt="Stream Short" style="width:100%; border-radius:8px;">
+  </figure>
 </div>
 
-## Prototype Preview
+<hr>
+
+<h2>🎬 Prototype Preview</h2>
 
 <video controls autoplay muted loop style="width:100%; border-radius:12px; margin-top:1rem;">
-  <source src="{{ 'images/TOTK_Companion_App_Video.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ site.baseurl }}/images/TOTK_Companion_App_Video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-<em>A walkthrough of the working prototype — highlighting UI transitions and flow consistency.</em>
+<em>Prototype walkthrough — showcasing page transitions and real-time interaction flow.</em>
 
-## Reflection
+<hr>
+
+<h2>💡 Reflection</h2>
 
 <p>
-This project taught me how structure and visual storytelling intersect. Even in a fictional setting, grounding design decisions in real user experience makes the work feel tangible. 
+This project reminded me that good design isn’t about flash — it’s about *immersion and clarity*.  
+From the earliest wireframes to the finished prototype, the goal was to make every user journey feel intentional and smooth.
 </p>
 
 <p>
-Working on this app helped refine my approach to layout consistency, information hierarchy, and accessible color contrast — and reminded me that good design always balances function and feeling.
+It deepened my understanding of layout rhythm, responsive scaling, and the emotional pacing of interaction design.  
+Each step — from moodboard to motion — was about storytelling through interface.
 </p>
 
-<em>Designed and prototyped in Figma, October 2024.</em>
+<em>Created and prototyped in Figma, October 2024.</em>
