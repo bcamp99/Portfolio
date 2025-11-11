@@ -54,3 +54,7 @@ defaults:
 
 sass:
   style: compressed
+
+kramdown:
+  input: GFM
+  parse_block_html: true
