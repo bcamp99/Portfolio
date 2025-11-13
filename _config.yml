@@ -4,7 +4,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 remote_theme: Baleon
 
-
 #-------------------------------
 # Build Settings
 markdown: kramdown
@@ -15,7 +14,6 @@ plugins:
 
 paginate: 8
 paginate_path: "/blog/page/:num"
-
 
 #-------------------------------
 # Collections
@@ -54,3 +52,90 @@ defaults:
 
 sass:
   style: compressed
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Elements'
+      url: '/elements/'
+
+# Call to action button
+cta_button:
+  enable: true
+  cta_button_link: "/contact/"
+  cta_button_text: Say Hello!
+
+#-------------------------------
+# Author Settings
+author:
+  author_intro: Hey, I’m Bayley Camp
+  author_name: Bayley Camp
+  author_role: a Designer and Multidisciplinary Creative
+  author_avatar: images/Headshot.jpg
+
+#-------------------------------
+# Sidebar Section Settings
+sidebar:
+  sidebar_title: >
+    A collection of moments and ideas
+    from interfaces to imagery, sketches to stories.
+  sidebar_description: This is where I share what inspires me and how I bring creativity to life across mediums.
+
+# Social Links
+social:
+  - {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://linkedin.com/in/bayleyecamp"}
+  - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com/bcamp_99"}
+  - {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com/becwrit.99"}
+
+#-------------------------------
+# Projects Settings
+projects:
+  enable: true
+  projects_title: Product Design <em>Showcase</em>
+  projects_description: I present my top-tier projects, meticulously crafted with unwavering passion, simplicity, boundless creativity, and unparalleled attention to detail.
+
+#-------------------------------
+# Blog Section Settings
+blog:
+  enable: true
+  blog_title: Latest <em>Articles</em> & <em>Publications</em>
+  blog_description: Discover the latest industry news, insights, and trends in a few clicks.
+
+#-------------------------------
+# Gallery Settings
+gallery:
+  enable: true
+  gallery_title: A Visual Journey Through <em>My World</em>
+  gallery_description: Step into my visual world where each image tells a story. From the bustling streets of urban landscapes to the serene beauty of nature, explore the moments that inspire and define my journey.
+  gallery_caption:
+
+gallery_images:
+  - alt: 'Together'
+    url: '/images/100.jpg'
+  - alt: 'Lifestyle'
+    url: '/images/101.jpg'
+  - alt: 'Friends'
+    url: '/images/102.jpg'
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: xovyvdrp
+  description: You can reach me directly through this contact form — messages are sent securely and go straight to my inbox.
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvod-studio-test
+
+#-------------------------------
+# Google Analytics
+google-analytics:
