@@ -20,7 +20,6 @@ This is a placemat design created in Figma in <strong>October 2025</strong> for 
 The design serves as a snapshot of what the Institute does and how it fits within DoD initiatives — summarizing research, partnerships, and mission focus in a clear visual format.
 </p>
 
-{% raw %}
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1.5rem;">
   <figure>
     <img src="{{ site.baseurl }}/images/usc_ict_placemat_page1.jpg" loading="lazy" alt="USC ICT Placemat Page 1" style="width:100%; border-radius:8px;">
@@ -32,7 +31,6 @@ The design serves as a snapshot of what the Institute does and how it fits withi
     <figcaption><strong>Placemat Page 2</strong><br>Back layout capturing labs, projects, and program collaborations across ICT.</figcaption>
   </figure>
 </div>
-{% endraw %}
 
 <hr>
 
@@ -45,14 +43,12 @@ At the time, their page was outdated, so I designed this as a refreshed concept 
 Looking back now, it’s interesting to see how their new design mirrors many of the same ideas I built into this early prototype.
 </p>
 
-{% raw %}
 <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
   <figure>
     <img src="{{ site.baseurl }}/images/Mock_Up_USC_Boxing_Site.jpg" loading="lazy" alt="USC Boxing Club Mock-Up" style="width:100%; border-radius:8px;">
     <figcaption><strong>USC Boxing Club Mock-Up</strong><br>Homepage concept built for clarity, energy, and a more modern athletic presence.</figcaption>
   </figure>
 </div>
-{% endraw %}
 
 <hr>
 
