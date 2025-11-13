@@ -111,22 +111,6 @@ blog:
   blog_description: Discover the latest industry news, insights, and trends in a few clicks.
 
 #-------------------------------
-# Gallery Settings
-gallery:
-  enable: true
-  gallery_title: A Visual Journey Through <em>My World</em>
-  gallery_description: Step into my visual world where each image tells a story. From the bustling streets of urban landscapes to the serene beauty of nature, explore the moments that inspire and define my journey.
-  gallery_caption:
-
-gallery_images:
-  - alt: 'Together'
-    url: '/images/100.jpg'
-  - alt: 'Lifestyle'
-    url: '/images/101.jpg'
-  - alt: 'Friends'
-    url: '/images/102.jpg'
-
-#-------------------------------
 # Contact Settings
 contact:
   email: xovyvdrp
