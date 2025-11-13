@@ -58,14 +58,17 @@ Once the flow was solid, I moved into detailed interface work: building profiles
 
   <figure>
     <img src="{{ site.baseurl }}/images/TOTK_Stream_Video_2.png" loading="lazy" alt="Stream Video 2" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Stream View</strong><br>A detailed look at live streaming interfaces and user interaction design.</figcaption>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/TOTK_Stream_Video_3.png" loading="lazy" alt="Stream Video 3" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Stream View</strong><br>A detailed look at live streaming interfaces and user interaction design.</figcaption>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/TOTK_Stream_Short.png" loading="lazy" alt="Stream Short" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Stream Short</strong><br>A look at a shorts video.</figcaption>
   </figure>
 </div>
 
