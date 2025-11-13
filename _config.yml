@@ -139,3 +139,14 @@ disqus-identifier: anvod-studio-test
 #-------------------------------
 # Google Analytics
 google-analytics:
+
+#-------------------------------
+# Disable Unused Sections
+testimonials:
+  enable: false
+
+faq:
+  enable: false
+
+mailchimp:
+  enable: false
