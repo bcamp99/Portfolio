@@ -3,6 +3,7 @@ title: Tears of the Kingdom Companion App (Mock-Up)
 date: 2024-10-15 10:00:00 +0300
 subtitle: UX/UI Design in Figma
 description: A concept app designed to complement gameplay through streaming and community connection.
+image: '/images/TOTK_Mood_Board.png'   # Added preview image for page header
 ---
 
 <p>
@@ -24,16 +25,19 @@ Once the flow was solid, I moved into detailed interface work: building profiles
     <img src="{{ site.baseurl }}/images/TOTK_Mood_Board.png" loading="lazy" alt="TOTK Mood Board" style="width:100%; border-radius:8px;">
     <figcaption><strong>Mood Board</strong><br>Visual tone and color direction — balancing natural textures with digital polish.</figcaption>
   </figure>
-
-  <figure>
-    <img src="{{ site.baseurl }}/images/TOTK_All_Wire_Frames.png" loading="lazy" alt="All Wireframes" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Wireframes</strong><br>Mapping the early structure of pages and user flow before refining design layers.</figcaption>
-  </figure>
 </div>
 
 <hr>
 
 <h2>🧭 App Flow & Interface Design</h2>
+
+<!-- 🔥 NEW: Full Figma Flow Added Here -->
+<div style="margin-bottom: 2rem;">
+  <figure>
+    <img src="{{ site.baseurl }}/images/TOTK_Figma_Flow.png" loading="lazy" alt="Full App Flow Diagram" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Full App Interaction Flow</strong><br>The complete screen-to-screen journey — mapping how every tap progresses through the experience.</figcaption>
+  </figure>
+</div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
   <figure>
@@ -57,18 +61,13 @@ Once the flow was solid, I moved into detailed interface work: building profiles
   </figure>
 
   <figure>
-    <img src="{{ site.baseurl }}/images/TOTK_Stream_Video_2.png" loading="lazy" alt="Stream Video 2" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Stream View</strong><br>A detailed look at live streaming interfaces and user interaction design.</figcaption>
-  </figure>
-
-  <figure>
     <img src="{{ site.baseurl }}/images/TOTK_Stream_Video_3.png" loading="lazy" alt="Stream Video 3" style="width:100%; border-radius:8px;">
     <figcaption><strong>Stream View</strong><br>A detailed look at live streaming interfaces and user interaction design.</figcaption>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/TOTK_Stream_Short.png" loading="lazy" alt="Stream Short" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Stream Short</strong><br>A look at a shorts video.</figcaption>
+    <figcaption><strong>Stream Clip</strong><br>A look at a clips video.</figcaption>
   </figure>
 </div>
 
