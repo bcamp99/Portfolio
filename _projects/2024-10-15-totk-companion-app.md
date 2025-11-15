@@ -3,7 +3,7 @@ title: Tears of the Kingdom Companion App (Mock-Up)
 date: 2024-10-15 10:00:00 +0300
 subtitle: UX/UI Design in Figma
 description: A concept app designed to complement gameplay through streaming and community connection.
-image: 'images/be_legendary.png'
+image: 'images/Zelda_TOTK_Menu.jpg'
 ---
 
 <p>
