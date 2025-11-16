@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Project Design <em>Showcase</em>
-description: I present my top-tier projects, meticulously crafted with unwavering passion, simplicity, boundless creativity, and unparalleled attention to detail.
+title: Art & Design <em>Showcase</em>
+description: A curated selection of my artwork, design projects, and photography.
 image: '/images/100.jpg'
+permalink: /projects/
 ---
-
 <!-- begin page section head -->
 <div class="container">
   <div class="page-section-head">
@@ -33,6 +33,7 @@ image: '/images/100.jpg'
             </svg>
           </div>
           {% endif %}
+
           {% if project.image %}
           <a href="{{ project.url | relative_url }}" class="project__image">
             <img class="lazy" data-src="{{ project.image | relative_url }}" alt="{{ project.title }}">
@@ -44,11 +45,14 @@ image: '/images/100.jpg'
           <h2 class="project__title">
             <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
           </h2>
+
           <div class="project__meta">
             {% if project.subtitle %}
               <div class="project__subtitle">{{ project.subtitle }}</div><span>•</span>
             {% endif %}
-            <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date_to_string }}</time>
+            <time datetime="{{ project.date | date_to_xmlschema }}">
+              {{ project.date | date_to_string }}
+            </time>
           </div>
         </div>
 
