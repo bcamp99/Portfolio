@@ -56,7 +56,9 @@
             {% endif %}
 
             {% if site.data.settings.cta_button.enable == true %}
-            <a href="{% if site.data.settings.cta_button.cta_button_link %}{{ site.data.settings.cta_button.cta_button_link }}{% else %}#{% endif %}" class="nav__link cta-button button button--accent">{{ site.data.settings.cta_button.cta_button_text }}</a>
+            <a href="{{ site.data.settings.cta_button.cta_button_link | relative_url }}" class="nav__link cta-button button button--accent">
+              {{ site.data.settings.cta_button.cta_button_text }}
+            </a>
             {% endif %}
           </div>
         </nav>

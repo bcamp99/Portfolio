@@ -40,9 +40,15 @@ author:
 # Sidebar Section Settings
 sidebar:
   sidebar_title: >
-    A collection of moments and ideas
-    from interfaces to imagery, sketches to stories.
-  sidebar_description: This is where I share what inspires me and how I bring creativity to life across mediums.
+    <span style="font-size: 0.9rem; font-style: italic;">
+      A collection of moments and ideas
+      from interfaces to imagery, sketches to stories.
+    </span>
+
+  sidebar_description: >
+    <span style="font-size: 0.9rem; font-style: italic;">
+      This is where I share what inspires me and how I bring creativity to life across mediums.
+    </span>
 
 # Social Links
 social:
