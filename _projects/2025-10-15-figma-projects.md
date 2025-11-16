@@ -3,6 +3,7 @@ title: Figma Projects
 date: 2025-10-15 09:00:00 +0300
 subtitle: Design Systems & Mockups
 description: A look at design projects crafted in Figma — from institutional storytelling to brand redesigns.
+image: 'images/Figma_logo.avif'
 permalink: /project/figma-projects
 ---
 

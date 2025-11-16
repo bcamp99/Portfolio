@@ -7,7 +7,7 @@ image: 'images/Zelda_TOTK_Menu.jpg'
 ---
 
 <p>
-This mock-up was built in Figma as the first phase of a <em>Zelda: Tears of the Kingdom Companion App</em>.  
+This page explores a mock-up I built in Figma as the first phase of a <em>Zelda: Tears of the Kingdom Companion App</em>.  
 It focuses on the streaming experience — showcasing live streams, clips, and streamer pages — all arranged for clarity, flow, and immersion.
 </p>
 
