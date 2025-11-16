@@ -3,46 +3,43 @@ title: Photography
 date: 2025-11-06 09:00:00 +0300
 subtitle: Visual Storytelling
 description: A collection of photographs that capture what words can’t — stillness, movement, and meaning.
+image: 'images/Jellyfish.jpg'
 ---
 
 <p>
-Photography, for me, is a kind of translation. It’s how I hold stillness, memory, and emotion long enough to see what they’re really saying. Each photo captures a pause — a moment that asked me to look closer.
+Photography, for me, is a kind of translation. It’s how I hold stillness, memory, and emotion long enough to see what they’re really saying. Each photo captures a pause, a moment that asked me to look closer.
 </p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
 
   <figure>
     <img src="{{ site.baseurl }}/images/Kilmainham_Gaol.jpg" loading="lazy" alt="Kilmainham Gaol" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Kilmainham Gaol</strong><br>Where history still hums beneath the stone — a space that remembers everything it’s seen.</figcaption>
+    <figcaption><strong>Kilmainham Gaol</strong>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Rock_of_Cashel.jpg" loading="lazy" alt="Rock of Cashel" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Rock of Cashel</strong><br>Ruins that never stopped standing — proof that beauty can still endure through erosion and time.</figcaption>
+    <figcaption><strong>Rock of Cashel</strong>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Church_is_Anywhere.jpg" loading="lazy" alt="Church is Anywhere" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Church is Anywhere</strong><br>Faith isn’t tied to walls or windows — it’s in the air, the light, the silence between sounds.</figcaption>
+    <figcaption><strong>Church is Anywhere</strong>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Scorpion_and_the_Grasshopper.jpg" loading="lazy" alt="Scorpion and the Grasshopper" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Scorpion and the Grasshopper</strong><br>Two small lives crossing paths — tension and balance captured in a single frame.</figcaption>
+    <figcaption><strong>Scorpion and the Grasshopper</strong>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Retro_Ride.png" loading="lazy" alt="Retro Ride" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Retro Ride</strong><br>A flash of nostalgia caught mid-motion — when the past feels close enough to reach out and touch.</figcaption>
+    <figcaption><strong>Retro Ride</strong>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Jellyfish.jpg" loading="lazy" alt="Jellyfish" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Jellyfish</strong><br>Weightless and untethered — an underwater ghost glowing in its own quiet orbit.</figcaption>
+    <figcaption><strong>Jellyfish</strong>
   </figure>
 
 </div>
-
-<p>
-My photos are pieces of how I see — quiet moments that exist between movement and memory. Sometimes they’re stories, sometimes just light, but always a reflection of where I’ve been and what I’ve felt.
-</p>
