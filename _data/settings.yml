@@ -59,7 +59,7 @@ projects:
 # Blog Section Settings
 blog:
   enable: true
-  blog_title: Latest <em>Articles</em>, Essays, & Poetry
+  blog_title: Latest <em>Articles, Essays, & Poetry</em>
   blog_description: A collection of my recent writing — reflections, creative work, and personal insights.
 
 #-------------------------------
