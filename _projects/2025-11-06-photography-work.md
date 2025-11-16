@@ -14,32 +14,32 @@ Photography, for me, is a kind of translation. It’s how I hold stillness, memo
 
   <figure>
     <img src="{{ site.baseurl }}/images/Kilmainham_Gaol.jpg" loading="lazy" alt="Kilmainham Gaol" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Kilmainham Gaol</strong>
+    <figcaption><strong>Kilmainham Gaol</strong></figcaption>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Rock_of_Cashel.jpg" loading="lazy" alt="Rock of Cashel" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Rock of Cashel</strong>
+    <figcaption><strong>Rock of Cashel</strong></figcaption>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Church_is_Anywhere.jpg" loading="lazy" alt="Church is Anywhere" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Church is Anywhere</strong>
+    <figcaption><strong>Church is Anywhere</strong></figcaption>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Scorpion_and_the_Grasshopper.jpg" loading="lazy" alt="Scorpion and the Grasshopper" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Scorpion and the Grasshopper</strong>
+    <figcaption><strong>Scorpion and the Grasshopper</strong></figcaption>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Retro_Ride.png" loading="lazy" alt="Retro Ride" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Retro Ride</strong>
+    <figcaption><strong>Retro Ride</strong></figcaption>
   </figure>
 
   <figure>
     <img src="{{ site.baseurl }}/images/Jellyfish.jpg" loading="lazy" alt="Jellyfish" style="width:100%; border-radius:8px;">
-    <figcaption><strong>Jellyfish</strong>
+    <figcaption><strong>Jellyfish</strong></figcaption>
   </figure>
 
 </div>
