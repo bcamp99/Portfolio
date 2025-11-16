@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Latest <em>Articles</em>
-description: Discover the latest industry news, insights, and trends in a few clicks.
+title: Latest <em>Articles</em>, Essays, & Poetry
+description: A collection of my recent writing — reflections, creative work, and personal insights.
 image: '/images/100.jpg'
+permalink: /blog/
 ---
-
 <!-- begin page section head -->
 <div class="container">
   <div class="page-section-head">
@@ -21,7 +21,7 @@ image: '/images/100.jpg'
 <div class="blog-page container">
   <div class="row grid">
     {% if site.posts.size > 0 %}
-      {% for post in paginator.posts offset:0 %}
+      {% for post in paginator.posts %}
         {% include article.html %}
       {% endfor %}
     {% endif %}
