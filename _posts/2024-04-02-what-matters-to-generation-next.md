@@ -4,7 +4,7 @@ title: "What Matters to Generation Next?"
 date: 2024-04-02 09:00:00 +0300
 categories: [Essays]
 author: "Bayley Camp, Operations Officer, Defense and Intelligence Initiatives, USC Institute for Creative Technologies"
-image: 'images/Next Generation.webp'
+image: 'images/Gen_Z_Article_Image.png'
 tags: [Generation Z, Innovation, Diversity, Future Workforce]
 ---
 
