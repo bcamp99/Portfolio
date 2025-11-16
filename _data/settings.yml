@@ -52,7 +52,7 @@ social:
 # Projects Settings
 projects:
   enable: true
-  projects_title: Art & Design <em>Showcase</em>
+  projects_title: Latest <em>Art & Design</em>
   projects_description: A curated selection of my artwork, design projects, and photography.
 
 #-------------------------------
