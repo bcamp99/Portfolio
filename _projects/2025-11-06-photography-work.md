@@ -42,4 +42,20 @@ Photography, for me, is a kind of translation. It’s how I hold stillness, memo
     <figcaption><strong>Jellyfish</strong></figcaption>
   </figure>
 
+  <!-- New Photos -->
+  <figure>
+    <img src="{{ site.baseurl }}/images/American_Robin.jpg" loading="lazy" alt="American Robin" style="width:100%; border-radius:8px;">
+    <figcaption><strong>American Robin</strong></figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}/images/Forgotten_Childhoods.jpg" loading="lazy" alt="Childhoods Lost in Time" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Childhoods Lost in Time</strong></figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ site.baseurl }}/images/Heart_Tree.jpg" loading="lazy" alt="Wild Hearts" style="width:100%; border-radius:8px;">
+    <figcaption><strong>Wild Hearts</strong></figcaption>
+  </figure>
+
 </div>
