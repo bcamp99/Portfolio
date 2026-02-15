@@ -1,6 +1,6 @@
 ---
 title: Photography
-date: 2025-11-06 09:00:00 +0300
+date: 2026-02-13 09:00:00 +0300
 subtitle: Visual Storytelling
 description: A collection of photographs that capture what words can’t — stillness, movement, and meaning.
 image: 'images/Jellyfish.jpg'
