@@ -26,11 +26,11 @@ I believe great design anticipates needs before users even realize them. It feel
 
 My work blends design, psychology, and strategy to build experiences that feel good to use — not just good to look at. It’s about making things people actually want to come back to.
 
-<div style="width: 100%; max-width: 900px; height: 800px; overflow: auto; border: 1px solid #ddd;">
+<div style="width: 100%; max-width: 900px; height: 1000px; overflow-y: scroll; border: 1px solid #ccc;">
   <iframe
     src="{{ '/docs/Bayley_E_Camp_2026_Tech_Resume.pdf' | relative_url }}"
     width="100%"
-    height="100%"
+    height="1200px"
     style="border: none;">
   </iframe>
 </div>
