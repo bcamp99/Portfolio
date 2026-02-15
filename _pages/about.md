@@ -26,11 +26,10 @@ I believe great design anticipates needs before users even realize them. It feel
 
 My work blends design, psychology, and strategy to build experiences that feel good to use — not just good to look at. It’s about making things people actually want to come back to.
 
-<object
-  data="/docs/Bayley_E_Camp_2026_Tech_Resume.pdf"
-  type="application/pdf"
-  width="900"
-  height="1100">
-</object>
+<iframe
+  src="{{ '/docs/Bayley_E_Camp_2026_Tech_Resume.pdf' | relative_url }}"
+  width="100%"
+  height="1100px">
+</iframe>
 
 ***
