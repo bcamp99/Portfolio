@@ -2,7 +2,7 @@
 layout: post
 title: "Ghosts in the Breeze"
 author: "BEC"
-date: 2026-02-14
+date: 2026-02-13
 categories: [poetry, art, reflections]
 tags: [love, loss, grief, healing, heartbreak]
 image: images/Ghost_Poem_Image.png
