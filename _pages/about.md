@@ -26,28 +26,13 @@ I believe great design anticipates needs before users even realize them. It feel
 
 My work blends design, psychology, and strategy to build experiences that feel good to use — not just good to look at. It’s about making things people actually want to come back to.
 
-<script>
-const url = "{{ '/docs/Bayley_E_Camp_2026_Tech_Resume.pdf' | relative_url }}";
-
-const container = document.getElementById('pdf-container');
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.8.162/pdf.worker.min.js';
-
-pdfjsLib.getDocument(url).promise.then(pdf => {
-  for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
-    pdf.getPage(pageNum).then(page => {
-      const viewport = page.getViewport({ scale: 1.2 }); // scale = zoom level
-      const canvas = document.createElement('canvas');
-      canvas.style.display = 'block';
-      canvas.style.margin = '20px auto';
-      const context = canvas.getContext('2d');
-      canvas.height = viewport.height;
-      canvas.width = viewport.width;
-      container.appendChild(canvas);
-      page.render({ canvasContext: context, viewport: viewport });
-    });
-  }
-});
-</script>
+<div style="width: 100%; max-width: 900px; height: 800px; overflow: auto; border: 1px solid #ddd;">
+  <iframe
+    src="{{ '/docs/Bayley_E_Camp_2026_Tech_Resume.pdf' | relative_url }}"
+    width="100%"
+    height="100%"
+    style="border: none;">
+  </iframe>
+</div>
 
 ***
