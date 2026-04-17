@@ -37,7 +37,7 @@
 
     .sidebar__content {
       .sidebar__title {
-        font-size: 1rem; /* FIXED mobile scaling */
+        font-size: 0.95rem;
       }
     }
 
@@ -103,19 +103,24 @@
 }
 
 /* =========================
-   Sidebar Content (FIX HERE)
+   Sidebar Content (CLEAN FIX)
 ========================= */
 
 .sidebar__content {
   margin-bottom: 24px;
 
+  /* KEY FIX: reset any inherited heading behavior */
   .sidebar__title {
     margin-bottom: 20px;
-    font-size: 0.9rem;   /* FIX: prevents huge 44px header */
+    font-size: 1rem; /* safe baseline */
     font-style: italic;
     font-weight: 400;
     line-height: 1.6;
     opacity: 0.8;
+
+    /* prevents theme overrides from scaling it like a page heading */
+    text-transform: none;
+    letter-spacing: normal;
   }
 
   .sidebar__description {
