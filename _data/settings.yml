@@ -1,66 +1,70 @@
 #-------------------------------
 # Site Settings
-title:
-logo: images/Website Logo BEC V2.png
-logo_dark: "/images/Website Logo BEC V2 - Dark.png"
-description: Portfolio of Bayley Camp — Designer & Multidisciplinary Creative.
+title: ""
+logo: "images/Website Logo BEC V2.png"
+logo_dark: "images/Website Logo BEC V2 - Dark.png"
+description: "Portfolio of Bayley Camp — Designer & Multidisciplinary Creative."
 color_scheme: auto
 
 #-------------------------------
 # Navigation Settings
 menu_settings:
   menu_items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'About'
-      url: '/about/'
+    - title: "Home"
+      url: "/"
+    - title: "Projects"
+      url: "/projects/"
+    - title: "Blog"
+      url: "/blog/"
+    - title: "About"
+      url: "/about/"
 
 # Call to action button
 cta_button:
   enable: true
   cta_button_link: "/contact/"
-  cta_button_text: Say Hello!
+  cta_button_text: "Say Hello!"
 
 #-------------------------------
 # Author Settings
 author:
-  author_intro: Hey, I’m Bayley Camp
-  author_name: Bayley Camp
-  author_role: a Designer and Multidisciplinary Creative
-  author_avatar: images/Headshot.jpg
+  author_intro: "Hey, I’m Bayley Camp"
+  author_name: "Bayley Camp"
+  author_role: "Designer and Multidisciplinary Creative"
+  author_avatar: "images/Headshot.jpg"
 
 #-------------------------------
 # Sidebar Section Settings
 sidebar:
-  sidebar_title: >
-    <span style="font-size: 0.9rem; font-style: italic;">
-      A collection of moments and ideas from interfaces to imagery, sketches to stories.
-      This is where I share what inspires me and how I bring creativity to life across mediums.
-    </span>
+  sidebar_title: "A collection of moments and ideas from interfaces to imagery, sketches to stories. This is where I share what inspires me and how I bring creativity to life across mediums."
 
 # Social Links
 social:
-  - {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://linkedin.com/in/bayleyecamp"}
-  - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com/bcamp_99"}
-  - {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com/becwrit.99"}
+  - icon: "fa-brands fa-linkedin"
+    name: "LinkedIn"
+    link: "https://linkedin.com/in/bayleyecamp"
+
+  - icon: "fa-brands fa-pinterest"
+    name: "Pinterest"
+    link: "https://pinterest.com/bcamp_99"
+
+  - icon: "fa-brands fa-instagram"
+    name: "Instagram"
+    link: "https://instagram.com/becwrit.99"
 
 #-------------------------------
 # Projects Settings
 projects:
   enable: true
-  projects_title: Latest <em>Art & Design</em>
-  projects_description: A curated selection of my artwork, design projects, and photography.
+  projects_title: "Latest Art & Design"
+  projects_description: "A curated selection of my artwork, design projects, and photography."
 
 #-------------------------------
 # Blog Section Settings
 blog:
   enable: true
-  blog_title: Latest <em>Articles, Essays, & Poetry</em>
-  blog_description: A collection of my recent writing: reflections, creative work, and personal insights.
+  blog_title: "Latest Articles, Essays, and Poetry"
+  blog_description: "A collection of my recent writing: reflections, creative work, and personal insights."
 
 #-------------------------------
 # Testimonials Settings
@@ -68,11 +72,10 @@ testimonials:
   enable: false
   testimonials_title: ""
   testimonials_description: ""
-
-testimonial-items: []
+  testimonial_items: []
 
 #-------------------------------
-# Faq (Frequently asked questions) Settings
+# FAQ Settings
 faq:
   enable: false
   faq_title: ""
@@ -92,13 +95,13 @@ mailchimp:
 #-------------------------------
 # Contact Settings
 contact:
-  email: xovyvdrp
-  description: You can reach me through this contact form messages are sent securely and go straight to my inbox.
+  email: "xovyvdrp"
+  description: "You can reach me through this contact form. Messages are sent securely and go straight to my inbox."
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: anvod-studio-test
+disqus_identifier: "anvod-studio-test"
 
 #-------------------------------
 # Google Analytics
-google-analytics: G-JSSYQD2KY9
+google_analytics: "G-JSSYQD2KY9"
