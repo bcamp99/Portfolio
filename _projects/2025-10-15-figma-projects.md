@@ -16,7 +16,7 @@ This project reflects how I use Figma not just as a design tool, but as a way to
 <p>
 This is a mock-up created in Figma in <strong>September 2023</strong> for the 
 <a href="https://www.trojanboxingclub.com/" target="_blank">USC Boxing Club</a>.  
-At the time, their page was outdated, so I designed this as a refreshed concept — inspired by modern sports league layouts.  
+At the time, their page was outdated, so I designed this as a refreshed concept inspired by modern sports league layouts.  
 Looking back now, it’s interesting to see how their new design mirrors many of the same ideas I built into this early prototype.
 </p>
 
@@ -30,6 +30,6 @@ Looking back now, it’s interesting to see how their new design mirrors many of
 <hr>
 
 <p>
-Each Figma project is a study in systems — balancing usability, storytelling, and tone.  
+Each Figma project is a study in systems - balancing usability, storytelling, and tone.  
 From institutional communication to creative redesign, I approach every layout as both narrative and interface.
 </p>

@@ -38,7 +38,7 @@ author:
 sidebar:
   sidebar_title: >
     <span style="font-size: 0.9rem; font-style: italic;">
-      A collection of moments and ideas — from interfaces to imagery, sketches to stories.
+      A collection of moments and ideas from interfaces to imagery, sketches to stories.
       This is where I share what inspires me and how I bring creativity to life across mediums.
     </span>
 
@@ -60,7 +60,7 @@ projects:
 blog:
   enable: true
   blog_title: Latest <em>Articles, Essays, & Poetry</em>
-  blog_description: A collection of my recent writing — reflections, creative work, and personal insights.
+  blog_description: A collection of my recent writing: reflections, creative work, and personal insights.
 
 #-------------------------------
 # Testimonials Settings
@@ -93,7 +93,7 @@ mailchimp:
 # Contact Settings
 contact:
   email: xovyvdrp
-  description: You can reach me through this contact form — messages are sent securely and go straight to my inbox.
+  description: You can reach me through this contact form messages are sent securely and go straight to my inbox.
 
 #-------------------------------
 # Comment Section (Disqus)
