@@ -2,48 +2,84 @@
 <section class="sidebar">
   <div class="sidebar__inner">
 
+    <!-- Author Meta -->
     <div class="sidebar__meta">
+
       {% if site.data.settings.author.author_avatar %}
       <div class="sidebar__avatar">
-        <img class="lazy" data-src="{{ site.data.settings.author.author_avatar | relative_url }}" alt="{{ site.data.settings.author.author_name }}">
+        <img
+          class="lazy"
+          data-src="{{ site.data.settings.author.author_avatar | relative_url }}"
+          alt="{{ site.data.settings.author.author_name }}"
+        >
       </div>
       {% endif %}
+
       <div class="sidebar__info">
+
         {% if site.data.settings.author.author_intro %}
-          <div class="sidebar__intro">{{ site.data.settings.author.author_intro }}</div>
+        <div class="sidebar__intro">
+          {{ site.data.settings.author.author_intro }}
+        </div>
         {% endif %}
+
         {% if site.data.settings.author.author_role %}
-          <span class="sidebar__role">{{ site.data.settings.author.author_role }}</span>
+        <span class="sidebar__role">
+          {{ site.data.settings.author.author_role }}
+        </span>
         {% endif %}
+
       </div>
     </div>
 
+    <!-- Sidebar Content -->
     <div class="sidebar__content">
+
       {% if site.data.settings.sidebar.sidebar_title %}
-        <h1 class="sidebar__title">{{ site.data.settings.sidebar.sidebar_title }}</h1>
+      <p class="sidebar__title">
+        {{ site.data.settings.sidebar.sidebar_title }}
+      </p>
       {% endif %}
+
       {% if site.data.settings.sidebar.sidebar_description %}
-        <p class="sidebar__description">{{ site.data.settings.sidebar.sidebar_description }}</p>
+      <p class="sidebar__description">
+        {{ site.data.settings.sidebar.sidebar_description }}
+      </p>
       {% endif %}
+
     </div>
 
+    <!-- Social Links -->
     <div class="sidebar__social">
+
       {% if site.data.settings.social %}
       <ul class="sidebar__social__list list-reset">
+
         {% for social in site.data.settings.social %}
         <li class="sidebar__social__item">
-          <a class="sidebar__social__link" href="{{ social.link }}" target="_blank" rel="noopener"
-            aria-label="{{ social.icon }} link"><i class="{{ social.icon }}"></i></a>
+          <a
+            class="sidebar__social__link"
+            href="{{ social.link }}"
+            target="_blank"
+            rel="noopener"
+            aria-label="{{ social.name }}"
+          >
+            <i class="{{ social.icon }}"></i>
+          </a>
         </li>
         {% endfor %}
+
       </ul>
       {% endif %}
+
     </div>
 
-<div class="copyright">
-  {{ site.time | date: '%Y' }} &copy; <a href="/">{{ site.data.settings.title }}</a>. 
-  Crafted & Designed by Bayley E Camp.
-</div>
+    <!-- Copyright -->
+    <div class="copyright">
+      {{ site.time | date: '%Y' }} &copy;
+      <a href="/">{{ site.data.settings.title }}</a>.
+      Crafted & Designed by Bayley E Camp.
+    </div>
 
   </div>
 </section>
