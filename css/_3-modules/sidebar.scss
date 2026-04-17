@@ -37,7 +37,7 @@
 
     .sidebar__content {
       .sidebar__title {
-        font-size: 36px;
+        font-size: 1rem; /* FIXED mobile scaling */
       }
     }
 
@@ -58,6 +58,10 @@
   flex-direction: column;
   height: 100%;
 }
+
+/* =========================
+   Author Meta
+========================= */
 
 .sidebar__meta {
   display: flex;
@@ -98,13 +102,20 @@
   }
 }
 
+/* =========================
+   Sidebar Content (FIX HERE)
+========================= */
+
 .sidebar__content {
   margin-bottom: 24px;
 
   .sidebar__title {
     margin-bottom: 20px;
-    font-size: 44px;
-    line-height: 1.22;
+    font-size: 0.9rem;   /* FIX: prevents huge 44px header */
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.6;
+    opacity: 0.8;
   }
 
   .sidebar__description {
@@ -112,6 +123,10 @@
     color: var(--text-alt-color);
   }
 }
+
+/* =========================
+   Social Links
+========================= */
 
 .sidebar__social {
   margin-bottom: 32px;
@@ -149,6 +164,10 @@
     }
   }
 }
+
+/* =========================
+   Copyright
+========================= */
 
 .sidebar__copyright {
   margin-top: auto;
